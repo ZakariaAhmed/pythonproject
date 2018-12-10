@@ -1,7 +1,5 @@
 # pythonproject
 
-
-
 Project Description: Web scraping, Crawling automated with Python - Implentation Stats,
 
 Problem: Company X have many banks as customers, Company x wants to find out, how many of their customers
@@ -16,3 +14,8 @@ We will implement 3 databases in Google's Big Query
 
 
 Last but not least we will implement graphs etc. on Google DataStudio, so that company x can monitor through Google DataStudio chart we will share with them.
+
+requirements:
+Connecting to Google Cloud Platform
+
+Authenticated with service account key
