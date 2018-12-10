@@ -3,7 +3,7 @@
 
 Project Description: Hand digit recognizer
 
-Problem: We want to create an machine learning system that can recognize any image of a handwritten digit, fed into the system.
+Problem: We want to create a machine learning system that can recognize any image of a handwritten digit, fed into the system.
 
 BonusProblem: Feed an image of letters, and be able to read the handwritten image.
 
