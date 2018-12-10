@@ -4,8 +4,8 @@
 
 Project Description: Web scraping, Crawling automated with Python - Implentation Stats,
 
-Problem: Company X have banks as customers, Company x want to find out, how many of their customers
-have implemented loan calculators and or videos on their websites, and they want to monitor once a month
+Problem: Company X have many banks as customers, Company x wants to find out, how many of their customers
+have implemented loan calculators and or videos on their websites, and they want to monitor once a month, to see how it progresses
 
 We want to build an automated crawler and scraper, that looks for values in different websites.
 
