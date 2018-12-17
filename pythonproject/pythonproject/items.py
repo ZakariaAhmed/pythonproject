@@ -9,5 +9,5 @@ import scrapy
 
 
 class PythonprojectItem(scrapy.Item):
-    itemValue = scrapy.Field()
+    item_value = scrapy.Field()
     _id = scrapy.Field()

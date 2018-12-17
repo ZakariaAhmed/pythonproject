@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03b731e1-2295-47df-bde9-965c8bbe45ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/pythonproject/tester1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/testing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/testing-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonproject/pythonproject/connector_facade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonproject/pythonproject/website.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/LoanCal.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/Website.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/pythonproject/loan_cal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/WebsiteList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/connector.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/pythonproject/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/testing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/pythonproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/spiders/allcrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/pythonproject/spiders/allcrawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/pythonproject/tester1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,67 +22,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/connector.py">
+        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#57#90#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/WebsiteList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="554">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/Website.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/tester1.py">
+        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/connector_facade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="250">
+              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/ApiSettings.py">
+        <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/spiders/allcrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            <state relative-caret-position="514">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +71,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>crawler_entity</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -100,14 +86,23 @@
         <option value="$PROJECT_DIR$/pythonproject/pythonproject/ApiSettings.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pythonproject/pythonproject/WebsiteList.py" />
+        <option value="$PROJECT_DIR$/pythonproject/pythonproject/items.py" />
+        <option value="$PROJECT_DIR$/pythonproject/pythonproject/website_functions.py" />
+        <option value="$PROJECT_DIR$/pythonproject/pythonproject/connector.py" />
         <option value="$PROJECT_DIR$/pythonproject/pythonproject/tester1.py" />
+        <option value="$PROJECT_DIR$/testing.ipynb" />
+        <option value="$PROJECT_DIR$/pythonproject/pythonproject/settings.py" />
+        <option value="$PROJECT_DIR$/pythonproject/pythonproject/website_list.py" />
+        <option value="$PROJECT_DIR$/pythonproject/pythonproject/spiders/allcrawler.py" />
+        <option value="$PROJECT_DIR$/pythonproject/pythonproject/connector_facade.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-20" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="979" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -132,6 +127,13 @@
               <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
               <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pythonproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonproject" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,6 +147,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pythonproject/pythonproject" />
+      <recent name="$PROJECT_DIR$/pythonproject/pythonproject/models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,26 +176,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544478313093</updated>
-      <workItem from="1544478315892" duration="3861000" />
+      <workItem from="1544478315892" duration="4116000" />
+      <workItem from="1544507765025" duration="394000" />
+      <workItem from="1544515567441" duration="1521000" />
+      <workItem from="1544955120759" duration="249000" />
+      <workItem from="1544955459534" duration="1757000" />
+      <workItem from="1545004403026" duration="167000" />
+      <workItem from="1545012539581" duration="4000" />
+      <workItem from="1545039843055" duration="10809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3861000" />
+    <option name="totallyTimeSpent" value="19017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="979" extended-state="0" />
+    <frame x="-20" y="23" width="1680" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25092024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27798277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32912844" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -195,35 +204,51 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32912844" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.043778803" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26568267" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32912844" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/tables/WebsiteList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/tables/WebsiteList.py" />
     <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/tester.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/ApiSettings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -237,36 +262,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/connector.py">
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/ApiSettings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#57#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/WebsiteList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/testing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/Website.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/tester1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/loan_cal.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/website_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="2" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/website.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/spiders/allcrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonproject/pythonproject/connector_facade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>
