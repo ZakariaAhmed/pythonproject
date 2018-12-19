@@ -81,19 +81,12 @@ def bq_table():
     return crawler_entities
 
 
-# Update our timestamp on website table, called everytime a crawl is finished.
-def update_time_stamp(last_crawled_month, total_sites_crawled, current_website, current_time, crawl_in_progress):
+# Update our timestamp on website table, called everytime a crawl is finished.   x
+def update_timestamp(last_crawled_month, total_sites_crawled, current_website, current_time, crawl_in_progress):
     client = bigquery.Client(project='pythonproject-225120')
-    dataset_id = 'CrawlingData'
-    table_id = 'websiteList'
-    dataset_ref = client.dataset(dataset_id)
-    table_ref = dataset_ref.table(table_id)
-    table = client.get_table(table_id)
-    rows = client.list_rows(table)
-    websiteList = []
     _zero = '0'
     query = (
-            'UPDATE `CrawlingData.websiteList` SET `LastCrawled` = \'' + current_time + '\', `LastCrawledMonth` = \'' + last_crawled_month + '\', `TotalSitesCrawled` = \'' + total_sites_crawled + '\', `CrawlInProgress` = \'' + crawl_in_progress + '\' WHERE AllowedDomains = \'' + current_website + '\''
+            'UPDATE `CrawlingData.websiteList` SET `LastCrawled` = \'' + current_time + '\', `LastCrawledMonth` = \'' + last_crawled_month + '\', `TotalSitesCrawled` = \'' + total_sites_crawled + '\', `CrawlInProgress` = \'' + crawl_in_progress + '\' WHERE website = \'' + current_website + '\''
     )
     print('updated timestamp')
     query_job = client.query(
@@ -104,7 +97,7 @@ def update_time_stamp(last_crawled_month, total_sites_crawled, current_website, 
 # response data Gets called when we find a value we looking for
 
 def response_data(website, snippet_name, loation_path, crawled_date):
-    client = bigquery.Client(project='pythoccnproject-225120')
+    client = bigquery.Client(project='pythonproject-225120')
     dataset_id = 'ResponseData'
     table_id = 'ResponseDataTable'
     dataset_ref = client.dataset(dataset_id)

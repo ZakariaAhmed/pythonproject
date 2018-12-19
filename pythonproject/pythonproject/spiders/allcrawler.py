@@ -39,11 +39,12 @@ class AllcrawlerSpider(CrawlSpider):
     def spider_opened(self, spider):
         print("SPIDER OPENED")
         spider.logger.info('Spider opened: %s', spider.name)
+        update_timestamp(month, "none", next_allowed_domain, current_time, current_time)
 
     def spider_closed(self, spider):
         responseFromSites = self.crawler.stats.get_value('downloader/response_count')
         spider.logger.info('Spider closed: %s', spider.name)
-
+        update_timestamp(month, str(responseFromSites), next_allowed_domain, current_time, '0')
 
     def parse_items(self, response):
         item = PythonprojectItem()
